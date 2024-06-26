@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    gap: 55px;
+    margin-left: 980px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 4px;
+
+}
