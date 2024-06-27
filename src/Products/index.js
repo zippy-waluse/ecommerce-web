@@ -24,6 +24,8 @@ function Products(){
                 key={product.id}
                 image={product.image}
                 productName={product.title}
+                category={product.category}
+                price={product.price}
                 />
 
                 // description={product.description}
