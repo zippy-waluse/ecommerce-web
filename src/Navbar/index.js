@@ -8,10 +8,12 @@ const Navbar = ()=>{
             <li>Product</li>
             <li>Service</li>
             <li>Contact</li>
+            <div className='icons'>
             <FaSearch/>
             <FaHeart/>
             <FaCartPlus/>
-            <FaSearch/>
+
+            </div>
         </div>
 
       

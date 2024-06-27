@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(94, 91, 91);
+    display: flex;
+    gap: 15%;
+}
+
+.icons{
+    display: flex;
+    gap: 18px;
+}
+
+.shop{
+    margin-left: 15%;
+}
+
+.mail{
+
+    margin-left: -100px;
+    color: white;
+    margin-top: 15px;
+}

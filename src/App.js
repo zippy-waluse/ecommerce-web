@@ -1,5 +1,6 @@
 import Products from './Products';
 import Navbar from "./Navbar";
+import Footer from './footer';
 
 
 
@@ -8,6 +9,7 @@ function App(){
       <div>
          <Navbar/>
          <Products/>
+         <Footer/>
 
 
       </div>
