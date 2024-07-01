@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
+
 function Search({ onSearch }) {
   const [searchItems, setSearchTerm] = useState('');
   const [suggestions, setSuggestions] = useState([]);
@@ -46,7 +47,7 @@ function Search({ onSearch }) {
       <form className="search-form" onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Search products..."
+          placeholder="Search products."
           value={searchItems}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-input"

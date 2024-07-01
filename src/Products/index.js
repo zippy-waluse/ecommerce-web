@@ -28,9 +28,7 @@ function Products(){
                 price={product.price}
                 />
 
-                // description={product.description}
-            //     category={product.category}
-            //     price={product.price}
+           
 
                
            

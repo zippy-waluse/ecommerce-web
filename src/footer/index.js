@@ -12,9 +12,7 @@ const Footer = ()=>{
             <FaTwitter/>
             <FaInstagram/>
 
-            <div className='mail'>
-                <p>Designedseemedkhan</p>
-            </div>
+        
 
         </div>
 
