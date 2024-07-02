@@ -1,5 +1,31 @@
 .search-container{
     margin-left: 20%;
     
+}
+
+.hd{
+    padding-top: -140px;
+}
+
+.textg{
+    background-color: palevioletred;
+    font-size: 28px;
+    padding-left: 120px;
+    padding-top: 40px;
+    display: flex;
+    border-radius: 25px;
+    width: 1200px;
+    margin-left: 130px;
+  
+}
+
+
+.headphone{
+
+    width: 300px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    height: 400px;
     
+
 }

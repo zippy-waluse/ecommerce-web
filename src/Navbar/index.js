@@ -1,13 +1,21 @@
 import './index.css';
 import {FaCartPlus, FaHeart, FaSearch} from 'react-icons/fa';
 import headphones from '../Images/headphones.jpg';
+import Search from '../Search';
 
 
 
 const Navbar = ()=>{
     return(
         
+        
         <div>
+
+            <div>
+            <Search/>
+            </div>
+
+           
         <div className='nav'>
             <li>Home</li>
             <li>Product</li>

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
+import headphones from '../Images/headphones.jpg';
+
 
 function Search({ onSearch }) {
   const [searchItems, setSearchTerm] = useState('');
@@ -63,7 +65,22 @@ function Search({ onSearch }) {
           ))}
         </ul>
       )}
+
+     
+
+            <div>
+              
+            </div>
     </div>
+
+    
   );
+
+
 }
 export default Search;
+
+
+
+
+
