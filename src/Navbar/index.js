@@ -30,9 +30,14 @@ const Navbar = ()=>{
             </div>
 
             <div className='landingpage'>
+                <div></div>
                 <div className='textg'>
                 <h3 >Get the best product<br></br>
                 at your home</h3>
+
+                <div>
+            <Search/> 
+            </div>
 
                 <div >
                     <img className='headphone' src={headphones} alt='headphones'/>

@@ -39,8 +39,9 @@
 }
 
 .search-container{
-    margin-left: 40px;
+    margin-left: 0px;
    padding-top: 20px;
+   padding-left: 2px;
 }
 
 
