@@ -1,12 +1,13 @@
 import './index.css';
 import {FaCartPlus, FaHeart, FaSearch} from 'react-icons/fa';
-import headphones from '../Images/headphones.jpg'
+import headphones from '../Images/headphones.jpg';
+
 
 
 const Navbar = ()=>{
     return(
-        <>
         
+        <div>
         <div className='nav'>
             <li>Home</li>
             <li>Product</li>
@@ -20,34 +21,36 @@ const Navbar = ()=>{
             </div>
             </div>
 
-
-
-
-
-            <div className='text'>
-                <h3>Get the best Product<br></br>
+            <div className='landingpage'>
+                <div className='textg'>
+                <h3 >Get the best product<br></br>
                 at your home</h3>
-              
 
-            
+                <div >
+                    <img className='headphone' src={headphones} alt='headphones'/>
+
                 </div>
 
+                </div>
 
-                <img src={headphones} className='headphones'/>
+              
 
- 
-        
+            </div>
+
+            <div>
+                
+            </div>
+
+
+            </div>
 
             
 
 
 
-        <div>
-            
 
-      
-        </div>
-        </>
+
+    
       
         
 
@@ -57,13 +60,3 @@ const Navbar = ()=>{
 }
 
 export default Navbar;
-
-
-export const Image=()=>{
-    return(
-        <div>
-
-        </div>
-        
-    )
-}
